@@ -53,10 +53,16 @@
   },
   "dependencies": {
     "a11y": "^0.4.0",
-    "critical": "^0.7.0",
-    "parallelshell": "^2.0.0",
-    "psi": "^2.0.2",
     "chokidar": "1.4.2",
-    "chokidar-cli": "1.2.0"
+    "chokidar-cli": "1.2.0",
+    "critical": "^0.7.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-clean-css": "^3.9.4",
+    "gulp-concat": "^2.6.1",
+    "gulp-csso": "^3.0.1",
+    "gulp-sass": "^4.0.1",
+    "parallelshell": "^2.0.0",
+    "psi": "^2.0.2"
   }
 }

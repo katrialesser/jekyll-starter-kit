@@ -38,9 +38,24 @@ $on-laptop:        800px;
     @media screen and (max-width: $device) {
         @content;
     }
+
 }
 
-
+// main page regions
+@media screen and (min-width: 768px) {
+  .wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+  aside.sidebar {
+    width: 25%;
+    /* float: left; */
+    border-right: 1px solid lightgray;
+  }
+  .main-page {
+    width: 70%;
+  }
+}
 
 // color swatches
 .swatch-row {
